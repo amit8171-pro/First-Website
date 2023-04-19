@@ -1,0 +1,6 @@
+
+@mixin res ($min : 480px, $max: 992px) {
+    @media(min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}

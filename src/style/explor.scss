@@ -1,0 +1,39 @@
+@import 'var';
+
+.explo{
+    span{
+font-size: 12px !important;
+font-weight: 500;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    h4{
+        font-size: 28px !important;
+        font-weight: 600;
+    }
+    .btn{
+        font-size: 14px !important;
+        padding: 50px 0 ;
+        font-weight: 500;
+    }
+    .hov{
+        &:hover{
+            .btn{
+                color: rgb(3, 179, 249);
+            }
+        }
+    }
+    .list-inline-item{
+        padding: 15px 30px;
+        border-radius: 30px;
+        &:hover{
+            background-color: $b;
+            color: $w;
+        }
+        &:active{
+            background-color: $b;
+            color: $w;
+        }
+    }
+}

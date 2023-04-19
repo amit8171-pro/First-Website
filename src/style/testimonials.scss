@@ -1,0 +1,72 @@
+@import 'var';
+@import 'res';
+.testimonials{
+  margin-bottom: 200px;
+  .owl-theme .owl-nav{
+    display: none;
+  }
+  .first{
+    padding: 0 45vh;
+    @include res() {
+      padding: 0;
+  }
+  }
+  .img1{
+    top: -80% ;
+    right: 45%;
+    @include res() {
+      top: -76%;
+      right: 40%;
+  }
+  }
+  .img2{
+    top: -50% ;
+    left: 20%;
+    @include res() {
+      display: none;
+  }
+  }
+  .img3{
+    top: -50% ;
+    right: 20%;
+    @include res() {
+      display: none;
+  }
+  }
+  .img4{
+    bottom: -20%;
+    left: 30%;
+    @include res() {
+      display: none;
+  }
+  }
+  .img5{
+    bottom: -20%;
+    right: 30%;
+    @include res() {
+      display: none;
+  }
+  }
+  .img6{
+    bottom: 40%;
+    left: 5%;
+    @include res() {
+      display: none;
+  }
+  }
+  .img7{
+    bottom: 40%;
+    right: 5%;
+    @include res() {
+      display: none;
+  }
+  }
+}
+.heading{
+  padding-bottom: 250px;
+  @include res() {
+    padding-bottom: 200px;
+}
+}
+
+

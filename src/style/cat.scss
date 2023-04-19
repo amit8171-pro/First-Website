@@ -1,0 +1,51 @@
+@import "var";
+.heading1{
+    padding-top: 100px !important;
+    padding-right: 655px !important;
+}
+.shorts{
+    .sort0{
+        padding: 5px 10px;
+        border-radius: 20px;
+        border-color: $g;
+        &:hover{
+           border-color: $b;
+        }
+    }
+    .sort{
+        width: 140px;
+        height: 40px;
+         border-radius: 20px;  
+         margin-left: 270px;
+    }
+    .btn{
+        background-color: $b;
+        color: $w;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 13px;
+        
+    }
+    .form-check-input{
+        border: 1px solid black;
+    }
+    .dropdown-menu{
+        width: 300px;
+    }
+    .bg-darks{
+       width: 100px;
+       height: 40px;
+       border-radius: 10px;
+       background-color: $b;
+       color: $w;
+    }
+}
+.women{
+    .form-check-input[type=checkbox]{
+        border: 1px solid black;
+    }
+    .form-check-input[type=radio]{
+        border: 1px solid black;
+        margin-right: 10px !important;
+    }
+}

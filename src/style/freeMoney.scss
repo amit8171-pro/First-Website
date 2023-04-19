@@ -1,0 +1,114 @@
+@import 'var';
+.FreeMoney{
+    margin-bottom: 150px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 68px;
+    padding: 50px 0;
+}
+p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: $g;
+}
+.btn1{
+    a{
+        text-decoration: none;
+        color: $w;
+    }
+    background: $b;
+    padding: 15px;
+    border-radius: 30px;
+  
+}
+.btn2{
+    a{
+        color: black !important;
+        text-decoration: none;
+    }
+    background: $b;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid $b !important;
+    
+}
+.kids{
+    margin:150px 0;
+    background: url(https://ciseco-nextjs.vercel.app/_next/static/media/BackgroundLine.fbaf1dad.svg);
+    .w-25{
+        width: 100px !important;
+    }
+    .mt-5{
+       padding: 50px;
+    }
+}
+.offers{
+    margin-bottom: 150px;
+    background: url(https://ciseco-nextjs.vercel.app/_next/static/media/BackgroundLine.fbaf1dad.svg);
+    .fs-5{
+        font-size: 16px !important;
+    }
+    .fs-6{
+        font-size: 13px !important;
+    }
+    
+    .form-control{
+        border: 1px solid rgb(126, 126, 241);
+    }
+    .btn-primary{
+        background-color: $b;
+    }
+    .mt-5{
+        padding: 70px;
+     }
+   
+}
+.experts{
+    margin-bottom: 150px;
+}
+.shop{
+    margin-bottom: 150px;
+    .travel{
+        
+        img{
+            border-radius: 20px;
+            &:hover{
+                background-color: rgba(135, 207, 235, 0.452);
+            }
+        }
+        
+    }
+    .beauty{
+        img{
+            border-radius: 20px;
+            &:hover{
+                background-color: rgba(220, 220, 143, 0.418);
+            }
+        }
+        
+    }
+    .sport{
+        img{
+            border-radius: 20px;
+            &:hover{
+                background-color: rgba(239, 138, 138, 0.308);
+            }
+        }
+        
+    }
+    .pets{
+        img{
+            border-radius: 20px;
+            &:hover{
+                background-color: rgba(240, 111, 240, 0.308);
+            }
+        }
+        
+    }
+
+}
+

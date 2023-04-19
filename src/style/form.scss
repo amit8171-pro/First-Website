@@ -1,0 +1,50 @@
+@import 'var';
+.form{
+    .row{
+        display: none;
+    }
+    .show-row{
+        display: block;
+    }
+    margin: 100px 300px !important;
+    .list-inline {
+        padding: 50px 0;
+    }
+    .list-inline-item {
+     padding: 30px 10px;
+    }
+    .ps-5{
+        padding-left: 150px !important;
+    }
+    .position-absolute{
+        img{
+            border-radius: 50%;
+        }
+    }
+    input{
+        width: 400px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    select{
+        width: 400px;
+        height: 50px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    button{
+        width: 180px;
+        height: 55px;
+        border-radius: 30px;
+        background-color: $b;
+        border: none;
+    }
+    .me-5{
+        margin-right: 470px !important;
+    }
+   
+}

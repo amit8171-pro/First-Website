@@ -1,0 +1,34 @@
+$b:#0F172A;
+$g:#666a71;
+$w:#fff;
+.dark-theme{
+   background-color: $b;
+   color: $w;
+   .navbar{
+    background-color: $b !important;
+   }
+   .nav-link{
+    color: $w;
+   }
+   .carousel{
+    background-color: $w;
+   }
+   i{
+    background-color: $b;
+    color: $w;
+   }
+   .form-control{
+    background-color: $b;
+    color: $w;
+   }
+   .bg-light{
+    background-color: $b !important;
+}
+.btn2{
+    background-color: $w !important;
+}
+}
+.light-theme{
+    background-color: $w;
+    
+}

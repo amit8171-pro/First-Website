@@ -1,0 +1,75 @@
+.shoes{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    .col-lg-6{
+        .img1{
+            width: 315px;
+            height: 430px;
+        }
+        img{
+            border-radius: 20px;
+           
+        }
+    }
+    .border-success{
+        height: 35px;
+        line-height: 35px;
+        padding:0 15px !important;
+        border: 2px solid rgb(146, 214, 146) !important;
+        font-weight: 600;
+    }
+   
+    .img{
+        width: 70px !important;
+        height: 40px;
+ 
+   }
+   .form-control{
+    width: 50px !important;
+   }
+   .btn-outline-primary{
+    border-radius: 50px;
+    border-color: gray;
+   }
+   .bg-primary{
+    color: #fff;
+    border-radius: 20px;
+   }
+
+   .accordion-button:not(.collapsed) {
+    padding: 0 !important;
+    height: 30px;
+   }
+   .accordion-item:first-of-type .accordion-button{
+    border-radius: 0;
+    border-color: transparent;
+    background-color: #fff;
+   }
+   .accordion-header {
+   
+        h2 {
+           
+            font-size: 58px;
+           line-height: 15px !important;
+            padding: 50px 0;
+        }
+  
+   }
+   .accordion-button{
+    padding: 0;
+    background-color: #fff;
+    box-shadow: none;
+   }
+   .accordion-button:not(.collapsed){
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+   }
+   ol{
+    li{
+        color: gray;
+        line-height: 20px !important;
+        padding: 5px 0;
+    }
+   }
+}
