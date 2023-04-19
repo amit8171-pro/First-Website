@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { NavLink, Link } from 'react-router-dom';
+import { Search, XLg } from 'react-bootstrap-icons';
+
 
 
 function Navbar() {
@@ -30,9 +32,9 @@ useEffect(() => {
 //code for dark and light mode end
  
 //show and hide code for search button start
-
   const [show, setShow] = useState(false)
   const ShowName = () => {
+    setShow(!show);
     if(show == true){
       setShow(false)
     }
@@ -91,7 +93,15 @@ useEffect(() => {
      
       
 <div className=' d-flex gap-4 fs-3 icon'>
-<button className='bg-light' onClick={ShowName}> <i class="bi bi-search"></i></button> 
+<button className='bg-light' onClick={ShowName}>{ show ? (
+      <>
+         <XLg/> 
+      </>
+   ) :(
+    <>
+       <Search/>
+    </>
+ )}</button> 
     {
       show && (<div className='position-absolute show d-flex bg-light'>
       <i class="bi bi-search fs-5"></i>
