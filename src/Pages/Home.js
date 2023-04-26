@@ -29,6 +29,7 @@ function Home() {
   <SpecialOffers/>
   <Trending/>
  <News/>
+  <Footer/>
 
   </>
   )
