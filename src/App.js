@@ -21,7 +21,7 @@ function App() {
       <Route path='/form' element={<Form/>}/>  
       <Route path='/shoes' element={<Shoes/>}/>  
 </Routes>
-<Footer/>
+
 </>
   );
 }
